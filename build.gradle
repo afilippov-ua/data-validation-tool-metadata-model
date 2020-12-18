@@ -1,0 +1,15 @@
+plugins {
+    id 'java'
+}
+
+group 'com.filippov.data.validation.tool'
+version '0.0.1-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation('org.projectlombok:lombok:1.18.4')
+    annotationProcessor('org.projectlombok:lombok:1.18.4')
+}
